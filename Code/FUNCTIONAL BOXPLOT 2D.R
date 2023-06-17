@@ -179,7 +179,7 @@ functional_boxplot2D_new <- function(FEMbasis, lowerfence, q1, median, q3, upper
     
     n_out <- length(ID_shape_outliers)
     
-    # Creo il bottone di default in cui è visibile solo il boxplot funzionale
+    # Creo il bottone di default in cui Ã¨ visibile solo il boxplot funzionale
     default <- c(rep(T,6),rep(F,n_out))
     button = list()
     button[[1]] = list(method = "restyle",
